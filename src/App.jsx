@@ -1,11 +1,14 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+
+      <main>
+        <h1>Recruitment Management System</h1>
+        <p>Find jobs. Hire talent. Build careers.</p>
+      </main>
     </>
   );
 }
